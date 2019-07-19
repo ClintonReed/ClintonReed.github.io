@@ -1,0 +1,118 @@
+                /* CSS Template designed with help from https://www.youtube.com/watch?v=myZZ9YF2pqs */
+            /* LAUNCH PAGE */
+            
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width: 100%;
+            }
+            
+            .intro {
+                height: 100%;
+                width: 100%;
+                margin: auto;
+                background: url(./img/evening-foggy-forest-376368.jpg) no-repeat 50% 50%;
+                display: table;
+                top: 0;
+                background-size: cover;
+            }
+            
+            .intro .inner {
+                display: table-cell;
+                vertical-align: middle;
+                width: 100%;
+                max-width: none;
+            }
+            
+            .content {
+                max-width: 600px;
+                margin: 0 auto;
+                text-align: center;
+                padding-bottom: 30%;
+            }
+            
+            .content img {
+                max-width: 400px;               
+                padding-bottom: 30px;
+            }
+
+            .content h1 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 600%;
+                font-weight: 400;
+                color: #efe1e9;
+                line-height: 90%;
+            }
+            
+            .btn {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 135%;
+                font-weight: 400;
+                color: #efe1e9;
+                text-transform: uppercase;
+                text-decoration: none;
+                border: solid #efe1e9;
+                padding: 10px 20px;
+                border-radius: 9px transition;
+                all: 0.5s;
+            }
+            
+            .btn:hover {
+                color: #b3baff;
+                border: solid #b3baff 2px;
+            }
+            
+            p {
+                font-size: 150%;
+                line-height: 120%;
+                font-family: sans-serif;
+            }
+            /*--- Media Queries --*/
+            
+            @media screen and (max-width: 900px) {
+                .content {
+                    padding-bottom: 30%;
+                }
+                .content h1 {
+                    font-size: 450%;
+                }
+                .btn {
+                    font-size: 130%;
+                    padding: 9px 17px;
+                }
+                @media screen and (max-width: 768px) {
+                    .content {
+                        padding-bottom: 40%;
+                    }
+                    .content h1 {
+                        font-size: 300%;
+                    }
+                    .btn {
+                        font-size: 110%;
+                        padding: 9px 17px;
+                    }
+                    p {
+                        font-size: 120%;
+                        line-height: 100%;
+                    }
+                }
+                @media screen and (max-width: 480px) {
+                    .content {
+                        padding-bottom: 50%;
+                    }
+                    .content h1 {
+                        font-size: 250%;
+                    }
+                    .btn {
+                        font-size: 110%;
+                        padding: 6px 14px;
+                    }
+                    p {
+                        font-size: 100%;
+                        line-height: 100%;
+                    }
+                }
